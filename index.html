@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ステンレスナイト 全集</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ffcccc;
+      box-sizing: border-box;
+    }  
+    
+    body {
+      min-height: 100vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .flex {
+      display: flex;
+    }
+    
+    .column {
+      flex-direction: column;
+    }
+    
+    .space-between {
+      justify-content: space-between;
+    }
+    
+    .x-center {
+      justify-content: center;
+    }
+    
+    .y-center {
+      align-items: center;
+    }
+    
+    summary {
+      list-style: none;
+    }
+    
+    .yuanjiao {
+      border-radius: 2px; 
+    }
+    
+    .daohanglan {
+      height: 75px;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 1000;
+      background-image: url('img/DM_20260325230204_049.png');
+      background-size: cover;
+      background-position: right center;
+    }
+    
+    .mingzi {
+      height: 260px;
+      margin-top: 72.5px;
+    }
+    
+    .goumai {
+      height: 155px;
+    }
+    
+    .faxing {
+      height: 290px;
+    }
+    
+    .jianjie {
+      height: 900px;
+    }
+    
+    .fanjufengmian {
+      width: 74px;
+      height: 100%;
+      object-fit: cover;
+      object-position: right;
+    }
+    
+    .wuliaomanhuarongqi {
+      width: 200px; 
+      height: 100%;
+    }
+    
+    /* 图片适应容器高度或宽度，等比例缩放 */
+    .wuliaodonghua {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    
+    .jinsejianbian{
+      background: linear-gradient(to bottom, #F0E68C, #C5A028); 
+      height: 62px; width: 62px; 
+    }
+    
+    .blue {
+      background-color: #2693FF;
+      height: 35px;
+    }
+    
+    .huise {
+      background-color: #EDEDED;
+      height: 35px;
+    }
+    
+    .yisoujing {
+      background-color: #CFCFCF;
+      width: 140px; 
+      height: 42px; 
+    }
+    
+    .tupianxuanze {
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .zhifubiaoti {
+    background-color: #CCCCCC;
+    height: 38px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <!-- 创造一个包含页面所有内容的flex交叉轴容器 -->
+  <div class="flex column">
+  
+  
+    <!-- 导航栏区域 -->
+    <div class="daohanglan flex space-between y-center">
+    
+      <!-- 导航栏里的五个子项 -->
+      <!-- 第1个，汉堡菜单按钮 -->
+      <div style="flex: 1; font-size: 26.5px;" class="flex x-center">
+        ☰
+      </div>
+      
+      <!-- 第2个，Pinkpine logo菠萝图标 -->
+      <!-- 菠萝图片显示高度调整 -->
+      <div style="height: 60px; flex: 1.4;">
+        <img src="img/DM_20260325230204_006.png" alt="菠萝图标" class="wuliaodonghua">
+      </div>
+      
+      <!-- 第3个，购物车图标 -->
+      <!-- 购物车图片显示高度调整 -->
+      <div style="height: 60px; flex: 1.4;">
+        <img src="img/DM_20260325230204_007.png" alt="购物车图片" class="wuliaodonghua">
+      </div>
+      
+      <!-- 第4个，灰色人头登录图片 -->
+      <!-- 登录图片显示高度调整 -->
+      <div style="height: 60px; flex: 1.4;">
+        <img src="img/DM_20260325230204_008.png" alt="登录人头" class="wuliaodonghua">
+      </div>
+      
+      <!-- 第5个，金色渐变背景和会员登录 -->
+      <div style="flex: 1.4;">
+        <!-- 金色渐变背景 -->
+        <div class="jinsejianbian yuanjiao flex x-center y-center" style="font-size: 12px;">
+          <b>会員登録<br>Sign-up</b>
+        </div>
+      </div>
+    </div>
+    <!-- 导航栏区域已闭合 -->
+    
+    
+    
+    <!-- 动漫名字，封面-->
+    <div class="mingzi flex column">
+    
+      <!-- 页面标题 -->
+      <div style="flex: 1.2; font-size: 18px; font-weight: bold; margin: 5px 0;">
+        ステンレスナイト 全集
+      </div>
+      
+      <!-- 售卖类型和tags区 -->
+      <div style="flex: 3.8;" class="flex column">
+        
+        <!-- 售卖的是DVD和蓝光光盘 -->
+        <div style="font-size: 12.8px; line-height: 1.9">
+          カテゴリ： DVD・ブルーレイ
+        </div>
+        
+        
+        <!-- tags区 -->
+        <!-- 纵向排列两行标签 -->
+        <div class="flex column" style="font-size: 12.8px;">
+        
+          <!-- 第一行标签 -->
+          <div class="flex">
+            <div>
+              ジャンル：
+            </div>
+          
+            <div class="flex">
+              <div style="height: 20px;">
+                <img src="img/DM_20260325230204_055.png" alt="标签" class="wuliaodonghua">
+              </div>
+            
+              <div>
+                全集
+              </div>
+            </div>
+          
+            <div class="flex">
+              <div style="height: 20px;">
+                <img src="img/DM_20260325230204_055.png" alt="标签" class="wuliaodonghua">
+              </div>
+            
+              <div>
+                全集・BOX
+              </div>
+            </div>
+          </div>
+          <!-- 第一行标签，已闭合 -->
+          
+        
+          <!-- 第二行标签 -->
+          <div class="flex">
+            <div class="flex">
+              <div style="height: 20px;">
+                <img src="img/DM_20260325230204_055.png" alt="标签" class="wuliaodonghua">
+              </div>
+              
+              <div>
+                コミック原作
+              </div>
+            </div>
+          
+            <div class="flex">
+              <div style="height: 20px;">
+                <img src="img/DM_20260325230204_055.png" alt="标签" class="wuliaodonghua">
+              </div>
+            
+              <div>
+                レズ
+              </div>
+            </div>
+          </div>
+          <!-- 第二行标签已闭合 -->
+        </div>
+        <!-- tags区，已闭合 -->
+      </div>
+      <!-- 售卖类型和tags区，已闭合 -->
+      
+            
+      <!-- 番剧图片与无料动画观看区-->
+      <div style="flex: 5;" class="flex">
+      
+        <!-- 番剧封面 -->
+        <div style="width: 30vw;height: 100px;" class=" flex x-center">
+          <img src="img/DM_20260325230204_060.jpg" alt="番剧封面" class="fanjufengmian">
+        </div>
+        
+        <!-- 无料动画观看图片区 -->
+        <div style="width: 70vw;" class="flex column">
+        
+          <!-- 右侧评价数和观看动画 -->
+          <div style=" flex: 1;" class="flex y-center">
+            <span style="font-size: 11.5px; ">
+              ユーザー評価
+            </span>
+            
+            <!-- 字体放大红色 -->
+            <span style="font-size: 18.5px; margin-bottom: 4px; color: #FF4D00;">
+              0
+            </span>
+          </div>
+          
+          <!-- 引用无料动画观看图片 -->
+          <div style="flex: 1; margin-bottom: 20px;" class="wuliaomanhuarongqi">
+            <img src="img/DM_20260325230204_016.png" alt="无料动画观看图片" class="wuliaodonghua">
+          </div>
+        </div>
+        <!-- 无料动画观看图片区，已闭合 -->        
+      </div>
+      <!-- 番剧图片与无料动画观看区，已闭合 -->
+    </div>
+    <!-- 动漫名字，封面。已闭合-->
+    
+    
+    
+    <!-- 加入购物车 -->
+    <!-- 含有三行内容 -->
+    <div class="goumai flex column">
+            
+      <!-- 第一行，购买png图片 -->
+      <div style="flex: 0.8;" class="blue">
+        <img src="img/DM_20260325230204_017.png">
+      </div>
+      
+      <!-- 第二行购买和金额数 -->
+      <div style="flex: 1;" class="flex space-between y-center">
+      
+        <!-- 左侧商品购入 -->
+        <div>
+          <span style="color: #0088FF; font-size: 22px;">⦿</span>
+          <span>この商品を購入</span>
+        </div>
+        
+        <!-- 右侧商品金额 -->
+        <div style="color: #FF4D00">
+          <span style="font-size: 13.5px;"><b>4,395</b></span>
+          <span style="font-size: 9.5px;"><b>円(税込)</b></span>
+        </div>
+      </div>
+      <!-- 第二行购买和金额数，已闭合 -->
+      
+      <!-- 第三行灰色背景和已售尽区块 -->
+      <div style="flex: 1.45;"class="flex x-center y-center">
+        <!-- 灰色背景和已售净 -->
+        <div class="yisoujing yuanjiao flex x-center y-center" style="font-size: 12.5px; color: #787878;"">
+          <b>売り切れました</b>
+        </div>
+      </div>
+    </div>
+    <!-- 加入购物车，已闭合 -->
+    
+    
+    
+    <!-- 详细介绍监督，作者，时长，发行日，售价 -->
+    <!-- 共八行 -->
+    <div class="faxing flex column" style="font-size: 13.95px;">
+      
+      <!-- 第一行 -->
+      <div style="flex: 2;" class="flex y-center">
+        商品コード：KSXA53863<br>
+        通常価格(税込)：5,170円
+      </div>
+      
+      <!-- 第二行 -->             
+      <div style="flex: 1;" class="flex y-center">
+        <span>
+          ポイント付与：
+        </span>
+        <span style="color: #FF4D00">
+          5%
+        </span>
+      </div>
+      
+      <!-- 第三行 -->
+      <div style="flex: 1;" class="flex y-center">
+        発売日：2000/02/04
+      </div>
+      
+      <!-- 第四行 -->
+      <div style="flex: 1;" class="flex y-center">
+        監督：音無竜之介
+      </div>
+      
+      <!-- 第五行 -->
+      <div style="flex: 1;" class="flex y-center">
+        原作：亜麻木硅
+      </div>
+      
+      <!-- 第六行 -->
+      <div style="flex: 1;" class="flex y-center">
+        時間：57分
+      </div>
+      
+      <!-- 第七行，注，本行没内容 -->
+      <div style="flex: 1.5;" class="flex y-center">
+        
+      </div>
+      
+      <!-- 第八行 -->
+      <div style="flex: 1;" class="flex y-center">
+        ©亜麻木 硅・富士美出版／ピンクパイナップル
+      </div>
+    </div>
+    <!-- 详细介绍监督，作者，时长，发行日，售价。已闭合 -->
+    
+ 
+       
+    <!-- 动漫发生故事详细介绍和网购指南和配送范围 -->
+    <div class="jianjie flex column" style="margin-top: 20px;">
+    
+      <!-- 标题和简介和购买说明 -->
+      
+      <!-- 作品介绍png图片 -->
+      <div style="height: 40px; position: relative; overflow: hidden;">
+        <img src="img/DM_20260325230204_018.png" class="wuliaodonghua" style="position: absolute; left: -120px; top: 0;">
+      </div>
+      
+      <!-- 简介 -->
+      <div style="font-size: 16px; flex: 1.2;" class="flex y-center">
+        <b>夏休み、誰もいない高原の別荘。女性ばかりの仲間の中、微妙に絡み合う視線は様々な思いを内包していた。だが、そこへ現れた精巧な女性型アンドロイド――</b>
+      </div>
+      
+      <!-- 更为详细的故事，段落标题 -->
+      <div style="height: 28px;">
+        ストーリー
+      </div>
+      
+      <!-- 详细简介 -->
+      <div style="font-size: 13.5px; line-height: 2.15; flex: 1.9" class="flex y-center">
+        試験が終わり、沙弥加と美鈴先輩は合宿にかこつけて二人だけで高原の避暑地を訪れた。プールへと誘う美鈴先輩が沙弥加に指をはわせたとき、沙弥加の意識は忘れていても、身体はその温もりを覚えていた……。甘い欲望は、美鈴を慕う亜紀が出現して破られるが、三人の無邪気な歓声は、やむことがなさそうに思えた。だが、その夜、飼犬のルイを追って迷い込んだ林で、沙弥加は怯えた瞳のアンドロイドと出会う。メモリを封印された彼女は、名前だけを呟いた。「リニア……」
+      </div>
+      
+      <!-- 介绍购物要点和配送范围 -->
+      <div style="font-size: 13.5px; line-height: 2.15; flex: 1.4;" class="flex x-center column">
+        <div style="color: #167BE0">
+        │通販ご利用ガイド（よくあるご質問）
+        </div>
+        
+        <div>
+        │配送先が日本国内でない場合、商品をお送りできません。<br>│If the receiver’s address is not in Japan,<br>&nbsp;we are not able to ship this item.<br>&nbsp;The payment will refund you in a few days.
+        </div>
+      </div>
+    </div>
+    <!-- 动漫发生故事详细介绍和网购指南和配送范围，已闭合 -->
+    
+    
+    
+    <!-- 你能以什么形式观看和支持的支付方式-->
+    <div class="canshu flex column">
+    
+      <!-- 下载视频参数png图片 -->
+      <div class="huise">
+        <img src="img/DM_20260325230204_021.png">
+      </div>
+      
+      <!-- 购买后得到视频的格式详细数据 -->
+      <!-- 共六行 -->      
+      <!-- 第一行 -->
+      <div class="flex column flex x-center">
+        <div style="font-size: 14px; flex: 2; margin-bottom: 10px; padding: 4px 0; color: #E6008E">
+          <b>ストリーミング仕様<br>Specification of Streaming</b>
+        </div>
+        
+        <!-- 第二行 -->
+        <div style="background-color: #F5F9FA; flex: 2; font-size: 13.8px;  margin-bottom: 10px;  padding: 4px 0;">
+          ファイル形式<br>Format of file
+        </div>
+        
+        <!-- 第三行 -->
+        <div style="flex: 1; font-size: 13.6px;   margin-bottom: 10px;  padding: 4px 0;" class="flex x-center">
+          H.264
+        </div>
+        
+        <!-- 第四行 -->
+        <div style="background-color: #F5F9FA; flex: 2; font-size: 13.8px;   margin-bottom: 10px;  padding: 4px 0;">
+          ビットレート<br>bit rate
+        </div>
+        
+        <!-- 第五行 -->
+        <div style="flex: 1; font-size: 13.6px;   margin-bottom: 10px;  padding: 4px 0;" class="flex x-center">
+          <span>1000kbps</span>
+          <span style="color: #E80D09; ">※</span>
+        </div>
+        
+        <!-- 第六行 -->
+        <div style="font-size: 13.5px; flex=1.5;   margin-bottom: 10px;  padding: 4px 0;">
+          <span style="color: #E80D09; ">※</span>
+          <span>インターネットの接続環境によって異なります</span>
+        </div>
+      </div>
+      <!-- 购买后得到视频的格式详细数据，已闭合 -->            
+      
+      <!-- 支持什么支付和支付方式 -->
+      <!-- 标题png图片 -->
+      <div class="zhifubiaoti" style="position: relative; overflow: hidden; margin-bottom: 15px; ">
+        <img src="img/DM_20260325230204_019.png" alt="支付区标题" class="wuliaodonghua" style="position: absolute; left: -62px; top: 0;">
+      </div>
+      
+      <!-- 支持的付款方式png图片 -->
+      <div style="margin-bottom: 20px;">
+        <img src="img/DM_20260325230204_020.png" alt="详细支付方式" class="wuliaodonghua">
+      </div>
+    </div>
+    <!-- 你能以什么形式观看和支持的支付方式，已闭合 -->
+    
+    
+    
+    <!-- 番剧的评分和与之相关的作品-->
+    <div class="flex column">
+    
+      <!-- 评分和星星 -->
+      <div class="flex column">
+      
+        <!-- 版块标题png图片 -->
+        <div style="height: 40px; position: relative; overflow: hidden; ">
+          <img src="img/DM_20260325230204_022.png" class="wuliaodonghua" style="position: absolute; left: -85px; top: 0;">
+        </div>
+        
+        <!-- 星星，总评价数 -->
+        <div class="flex column">
+        
+          <!-- 该容器用来装载，五颗星星图片和右侧的评价平均分数 -->
+          <div class="flex">
+          
+            <!-- 五个星星图片容器 -->
+            <div class="flex" style="width: 70vw; height: 39px; margin: 5px 0;">
+            
+              <!-- 五个星星图片 -->
+              <img src="img/DM_20260325230204_023.png" alt="星星图片" class="wuliaodonghua">
+              
+              <img src="img/DM_20260325230204_023.png" alt="星星图片" class="wuliaodonghua">
+              
+              <img src="img/DM_20260325230204_023.png" alt="星星图片" class="wuliaodonghua">
+              
+              <img src="img/DM_20260325230204_023.png" alt="星星图片" class="wuliaodonghua">
+              
+              <img src="img/DM_20260325230204_023.png" alt="星星图片" class="wuliaodonghua">
+            </div>
+            <!-- 五个星星图片容器，已闭合 -->
+            
+            <!-- 星星右侧平局评价文字 -->
+            <div>
+              <span style="font-size: 12.8px;">平均評価 </span>
+              <!-- 红字，变大 -->
+              <span style="font-size: 20.5px; color: #FF4D00">0</span>
+            </div>
+          </div>
+          
+          <!-- 星星底部文字 -->
+          <div style="margin-bottom: 10px;">
+            <span style="font-size: 12.8px;">総評価数</span>
+            <span style="font-size: 20.5px;">0</span>
+            <span style="font-size: 12.8px;">（0件のコメント）</span>
+          </div>
+        </div>
+        <!-- 星星，总评价数。已闭合 -->
+      </div>
+      <!-- 评分和星星，已闭合 -->
+
+      
+      <!-- 闪连商品(标题)，图片选择器和折叠项目 -->
+      <div class="flex column">
+      
+        <!-- 标题图片，闪连商品 -->
+        <div style="height: 42px; position: relative; overflow: hidden; margin-bottom: 15px;">
+          <img src="img/DM_20260325230204_024.png" class="wuliaodonghua" style="position: absolute; left: -118px; top: 0;" alt="闪连商品">
+        </div>
+        
+        
+        <!-- 图片选择器 -->
+        <div class="flex tupianxuanze" style="height: 80px;">
+          <!-- 可滑动容器 -->
+          <div style="height: 80px; " class="flex">
+          
+          <!-- 两排图片选择器 -->
+          
+            <!-- 图片选择器第一页 -->
+            <div class="flex" style="width: 320px; min-width: 0;">
+              <img src="img/DM_20260325230204_025.jpg" alt="榨精病栋" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_026.jpg" alt="华丽的女王" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_027.jpg" alt="华丽的女王2" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_028.jpg" alt="榨精病栋2" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_029.jpg" alt="蛇蜘蛛" class="wuliaodonghua">
+            </div>
+          
+            <!-- 图片选择器第二页 -->
+            <div class="flex" style="width: 320px; min-width: 0;">
+              <img src="img/DM_20260325230204_030.jpg" alt="图书馆的女生" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_031.jpg" alt="mo一度" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_032.jpg" alt="榨精病栋3" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_033.jpg" alt="异世界全力唱歌" class="wuliaodonghua">
+              <img src="img/DM_20260325230204_034.jpg" alt="寝取" class="wuliaodonghua">
+            </div>
+          </div>
+          <!-- 两排图片选择器，已闭合 -->
+        </div>
+        <!-- 图片选择器，已闭合 -->
+        
+      
+        <!-- 折叠相关项目和底部版权声明 -->
+        <div style="background-color: #EDEDED; margin-top: 15px; font-size: 13.5px;">
+        
+          <!-- 底部四个折叠框 -->
+          <div class="flex column" style="min-height: 200px; padding-bottom: 15px; padding-top: 15px; font-size: 13px;">
+          
+            <!-- 第一个折叠框 -->
+            <div style="flex: 1; ">
+              <details>
+                <!-- 折叠框标题 -->
+                <summary>
+                  <div class="flex space-between y-center">
+                    
+                    <!-- 折叠框显示左侧标题文字 -->
+                    <div>
+                      <b>作品ラインナップ</b>
+                    </div>
+                    
+                    <!-- 右侧图片放置小三角矢量图 -->
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11.44" viewBox="0 0 11 11.44"><polygon points="0,0 11,0 5.5,9.53" fill="#C9C9C9"/>
+                      </svg>
+                    </div>
+                  </div>
+                </summary>
+                
+                <!-- 被折叠内容 -->
+                <p>単品動画<br>A la carte</p>
+                <p>月額見放題<br>Monthly</p>
+                <p>DVD・ブルーレイ</p>
+                <p>グッズ</p>
+              </details>
+            </div>
+            
+            <!-- 第二个折叠框 -->
+            <div style="flex: 1; ">
+              <details>
+                <!-- 折叠框标题 -->
+                <summary>
+                  <div class="flex space-between y-center">
+                    
+                    <!-- 折叠框显示左侧标题文字 -->
+                    <div>
+                      <b>ジャンル一覧</b>
+                    </div>
+                    
+                    <!-- 右侧图片放置小三角矢量图 -->
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11.44" viewBox="0 0 11 11.44"><polygon points="0,0 11,0 5.5,9.53" fill="#C9C9C9"/>
+                      </svg>
+                    </div>
+                  </div>
+                </summary>
+                
+                <!-- 被折叠内容 -->
+                <p>単品動画<br>A la carte</p>
+                <p>月額見放題<br>Monthly</p>
+                <p>DVD・ブルーレイ</p>
+                <p>グッズ</p>
+              </details>
+            </div>
+            
+            <!-- 第三个折叠框 -->
+            <div style="flex: 1; ">
+              <details>
+                <!-- 折叠框标题 -->
+                <summary>
+                  <div class="flex space-between y-center">
+                    
+                    <!-- 折叠框显示左侧标题文字 -->
+                    <div>
+                      <b>ご利用ガイド<br>User Guide</b>
+                    </div>
+                    
+                    <!-- 右侧图片放置小三角矢量图 -->
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11.44" viewBox="0 0 11 11.44"><polygon points="0,0 11,0 5.5,9.53" fill="#C9C9C9"/>
+                      </svg>
+                    </div>
+                  </div>
+                </summary>
+                
+                <!-- 被折叠内容 -->
+                <p>商品購入の方法<br>Purchase of Products</p>
+                <p>月額見放題について<br>About [Monthly] Monthly Unlimited Service</p>
+                <p>再生方法について<br>About how to play</p>
+                <p>インストールやダウンロード方法<br>How to Install and Download App/Player</p>
+                <p>配送送料について<br>About delivery charge</p>
+                <p>ポイントの使い方<br>How to use Points</p>
+              </details>
+            </div>
+            
+            <!-- 第四个折叠框 -->
+            <div style="flex: 1; ">
+              <details>
+                <!-- 折叠框标题 -->
+                <summary>
+                  <div class="flex space-between y-center">
+                    
+                    <!-- 折叠框显示左侧标题文字 -->
+                    <div>
+                      <b>Pinkpineappleについて<br>About Pinkpineapple</b>
+                    </div>
+                    
+                    <!-- 右侧图片放置小三角矢量图 -->
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11.44" viewBox="0 0 11 11.44"><polygon points="0,0 11,0 5.5,9.53" fill="#C9C9C9"/>
+                      </svg>
+                    </div>
+                  </div>
+                </summary>
+                
+                <!-- 被折叠内容 -->
+                <p>利用規約<br>Terms of Use</p>
+                <p>月額見放題利用規約<br>Terms of Usage for [Monthly] Monthly Unlimited Service</p>
+                <p>特定商取引に関する表記<br>Statement Pursuant to the Act on Specified<br>Commercial Transactions</p>
+                <p>プライバシーポリシー<br>Privacy policy</p>
+                <p>人材募集<br>Recruitment</p>
+              </details>
+            </div>
+          </div>
+          <!-- 底部四个折叠框，已闭合 -->
+                   
+                   
+          <!-- 网站底部版权声明 -->
+          <div style="height: 35px; background-color: #454545; font-size: 10.5px; color: #FFFFFF; " class="flex x-center y-center">
+            Copyright © 2016 Pinkpineapple All Rights Reserved.
+          </div>
+        </div>
+        <!-- 折叠相关项目和底部版权声明，已闭合 -->
+      </div>
+      <!-- 闪连商品(标题)，图片选择器和折叠项目，已闭合 -->
+    </div>
+    <!-- 番剧的评分和与之相关的作品，已闭合 -->
+  </div>
+  <!-- 创造一个包含页面所有内容的flex交叉轴容器，已闭合 -->
+</body>
+</html>
