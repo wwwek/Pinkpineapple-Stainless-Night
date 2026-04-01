@@ -1,5 +1,10 @@
 # Pinkpineapple-Stainless-Night
-我抄Pinkpineapple 银色之夜界面制作了一个html网页  
+我抄Pinkpineapple 银色之夜界面制作了一个html网页
+
+pinkpineapple官网页面:  
+<https://www.pinkpineapple.co.jp/detail.php?did=310&cid=4>
+
+我抄出来的网页布局:  
 <https://wwwek.github.io/Pinkpineapple-Stainless-Night/>
 
 * img里的png或者svg素材是我用浏览器插件aix下载器下载的 
